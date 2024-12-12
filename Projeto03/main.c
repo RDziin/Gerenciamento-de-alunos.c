@@ -101,7 +101,6 @@ int main()
                 {
                     if (alunos[i].matricula == matricula)
                     {
-                        // Shift students down
                         for (int j = i; j < quantidade - 1; j++)
                         {
                             alunos[j] = alunos[j + 1];
